@@ -5,26 +5,26 @@ import Contact from './contact'
 
 export default function Footer() {
   return (
-    <div className='flex w-full flex-col w-full px-8' style={{background:"rgba(20, 93, 166, 1)"}}>
+    <div className='flex w-full flex-col w-full px-8 space-y-20' style={{background:"rgba(20, 93, 166, 1)"}}>
         <div className='flex w-full space-x-8'>
                     <div className='flex flex-col w-1/2'>
                                 <div className='grid grid-flow-row grid-cols-2  gap-4 gap-y-8 h-full w-full py-14'>
 
                                     <input 
                                     placeholder='Full name'
-                                    className='px-4 py-3 rounded-sm text-sm'
+                                    className='px-4 py-3 rounded-sm text-sm font-serif'
                                     />
                                     <input 
                                         placeholder='E- mail'
-                                        className='px-4 py-3 rounded-sm text-sm'
+                                        className='px-4 py-3 rounded-sm text-sm font-serif'
                                     />
                                     <input 
                                         placeholder='Phone Number'
-                                        className='px-4 py-3 rounded-sm text-sm'
+                                        className='px-4 py-3 rounded-sm text-sm font-serif'
                                     />
                                     <input 
                                     placeholder='Select service'
-                                    className='px-4 py-3 rounded-sm text-sm'
+                                    className='px-4 py-3 rounded-sm text-sm font-serif'
                                     />
 
 

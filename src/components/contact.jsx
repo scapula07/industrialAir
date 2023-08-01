@@ -14,28 +14,31 @@ export default function Contact() {
            <div className='flex items-center space-x-4'>
                 <h5 className='bg-white rounded-lg flex items-center justify-center px-3 py-4'>
                     <MdOutlineLocationOn
-                     className='text-blue-700 text-xl'
+                     className=' text-xl'
+                     style={{color:"rgba(20, 93, 166, 1)"}}
                      />
                 </h5>
-                <h5 className='text-white font-semibold text-sm'>ADDRESS:  220 US Hwy 82 W, New Boston, Texas, United States</h5>
+                <h5 className='text-white font-semibold text-sm font-serif'>ADDRESS:  220 US Hwy 82 W, New Boston, Texas, United States</h5>
 
              </div>
              <div className='flex items-center space-x-4'>
                 <h5 className='bg-white rounded-lg flex items-center justify-center px-3 py-4'>
                     <AiFillMail
-                     className='text-blue-700 text-xl'
+                     className='text-xl'
+                     style={{color:"rgba(20, 93, 166, 1)"}}
                      />
                 </h5>
-                <h5 className='text-white font-semibold text-sm'>Email:  industrialairNB@gmail.com</h5>
+                <h5 className='text-white font-semibold text-sm font-serif'>Email:  industrialairNB@gmail.com</h5>
 
              </div>
              <div className='flex items-center space-x-4'>
                 <h5 className='bg-white rounded-lg flex items-center justify-center px-3 py-4'>
                     <BsFillTelephoneFill
-                     className='text-blue-700 text-xl'
+                     className=' text-xl'
+                     style={{color:"rgba(20, 93, 166, 1)"}}
                      />
                 </h5>
-                <h5 className='text-white font-semibold text-sm'>Phone:  +1 903-628-5276</h5>
+                <h5 className='text-white font-semibold text-sm font-serif'>Phone:  +1 903-628-5276</h5>
 
              </div>
 
