@@ -1,5 +1,5 @@
 import React from 'react'
-import works from "../assets/works.png"
+import works from "../assets/work1.png"
 
 export default function Works() {
   return (

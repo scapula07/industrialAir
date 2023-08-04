@@ -2,7 +2,8 @@ import React from 'react'
 import test1 from "../assets/test1.png"
 import test2 from "../assets/test2.png"
 import test3 from "../assets/test3.png"
-import test4 from "../assets/test4.png"
+import test4 from "../assets/test5.png"
+import service from "../assets/service1.png"
 export default function Testimonials() {
   return (
      <div className='flex items-center flex-col w-full space-y-7 py-16 px-20'> 
@@ -15,7 +16,7 @@ export default function Testimonials() {
        </div>
 
        <div className='flex items-center '>
-        {[test1,test2,test3,test4].map((src)=>{
+        {/* {[test1,test2,test3,test4].map((src)=>{
              return(
                 <img 
                 src={src}
@@ -23,7 +24,10 @@ export default function Testimonials() {
              )
         })
 
-        }
+        } */}
+         <img 
+         src={service}
+        />
        </div>
         
 
